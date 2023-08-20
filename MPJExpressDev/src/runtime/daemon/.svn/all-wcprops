@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/runtime/daemon
+END
+Wrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/runtime/daemon/Wrapper.java
+END
+MultithreadStarter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/runtime/daemon/MultithreadStarter.java
+END
+JarClassLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/runtime/daemon/JarClassLoader.java
+END
+MPJDaemon.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/runtime/daemon/MPJDaemon.java
+END
+WrapperSimpleApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/runtime/daemon/WrapperSimpleApp.java
+END
+MPJProcessPrintStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/runtime/daemon/MPJProcessPrintStream.java
+END

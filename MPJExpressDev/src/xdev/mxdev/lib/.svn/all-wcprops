@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/lib
+END
+mxdev_const.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/lib/mxdev_const.h
+END
+xdev_mxdev_MXSendRequest.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/lib/xdev_mxdev_MXSendRequest.c
+END
+xdev_mxdev_MXDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/lib/xdev_mxdev_MXDevice.h
+END
+xdev_mxdev_MXSendRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/lib/xdev_mxdev_MXSendRequest.h
+END
+xdev_mxdev_MXRecvRequest.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/lib/xdev_mxdev_MXRecvRequest.c
+END
+xdev_mxdev_MXRecvRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/lib/xdev_mxdev_MXRecvRequest.h
+END
+xdev_mxdev_MXDevice.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/lib/xdev_mxdev_MXDevice.c
+END

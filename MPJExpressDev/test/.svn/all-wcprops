@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/mpjio/!svn/ver/44/dev/MPJExpressDev/test
+END
+manifest
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/manifest
+END
+TestSuite.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/TestSuite.java
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/build.xml
+END

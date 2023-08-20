@@ -1,0 +1,12 @@
+async.c:set_view
+atomicity.c:set_view
+coll_perf.c:set_view
+coll_test.c:set_view
+error.c:set_view
+i_noncontig.c:set_view
+large_array.c:set_view
+misc.c.in:set_view
+noncontig.c:set_view
+noncontig_coll2.c:set_view
+noncontig_coll.c:set_view
+split_coll.c:set_view

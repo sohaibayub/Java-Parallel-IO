@@ -1,0 +1,29 @@
+#  $Archive:: /Ti/jni/Makefile                                           $
+#     $Date:: 7/02/00 12:25p                                             $
+# $Revision:: 22                                                         $
+# Description: Platform Makefile for SGI.IRIX
+# Copyright 2000, Dan Bonachea - see license.txt for usage information
+
+#---------------------------------------------------------------------------
+# SGI Origin 2000 settings
+
+# switches to be added to the C compiler line for optimize and debug configs
+PLATFORM_OPT_DEFS = -xO5
+PLATFORM_DEBUG_DEFS = -g
+
+# this is the subdirectory name in JAVA_HOME/include/ that contains platform-specific files
+JDKPLATFORMINCLUDESUBDIR = irix
+
+# Compiler
+CC=SGI_ABI=n32 /usr/bin/cc  
+LIBOPTS=-shared
+
+# things to place before and after calls to the java binaries
+JAVA_PREFIX   = LD_LIBRARYN32_PATH=. 
+JAVA_SUFFIX   = -native -n32 -classpath .
+JAVAC_PREFIX  = 
+JAVAC_SUFFIX  = -sourcepath . 
+JAVAH_PREFIX  = 
+JAVAH_SUFFIX  = -classpath .
+
+#---------------------------------------------------------------------------

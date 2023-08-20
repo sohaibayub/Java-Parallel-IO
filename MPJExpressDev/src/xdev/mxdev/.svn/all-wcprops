@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev
+END
+MXProcessID.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/MXProcessID.java
+END
+MXDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/MXDevice.java
+END
+MXSendRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/MXSendRequest.java
+END
+MXRecvRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/MXRecvRequest.java
+END
+MXRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/mxdev/MXRequest.java
+END

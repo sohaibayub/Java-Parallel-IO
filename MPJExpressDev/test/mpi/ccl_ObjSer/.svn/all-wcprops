@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl_ObjSer
+END
+gathervO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl_ObjSer/gathervO.java
+END
+test.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl_ObjSer/test.java
+END
+allgatherO.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl_ObjSer/allgatherO.java
+END
+alltoallO.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl_ObjSer/alltoallO.java
+END
+scatterO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl_ObjSer/scatterO.java
+END
+allgathervO.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl_ObjSer/allgathervO.java
+END
+alltoallvO.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl_ObjSer/alltoallvO.java
+END
+gatherO.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl_ObjSer/gatherO.java
+END
+scattervO.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl_ObjSer/scattervO.java
+END
+bcastO.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl_ObjSer/bcastO.java
+END

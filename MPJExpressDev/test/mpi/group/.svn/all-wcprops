@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/group
+END
+Group_incl.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/group/Group_incl.java
+END
+Group_diff.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/group/Group_diff.java
+END
+Group_union.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/group/Group_union.java
+END
+Group_self.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/group/Group_self.java
+END
+Group_excl.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/group/Group_excl.java
+END
+Group_com.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/group/Group_com.java
+END
+Group_intersect.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/group/Group_intersect.java
+END
+group.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/group/group.java
+END
+range.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/group/range.java
+END
+Group_tranks.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/group/Group_tranks.java
+END

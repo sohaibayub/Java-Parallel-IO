@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/mpjio/!svn/ver/49/dev/NIOEvaluation/NIOTests/ti/io
+END
+BulkRandomAccessFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mpjio/!svn/ver/49/dev/NIOEvaluation/NIOTests/ti/io/BulkRandomAccessFile.java
+END
+BulkDataInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/mpjio/!svn/ver/49/dev/NIOEvaluation/NIOTests/ti/io/BulkDataInputStream.java
+END
+BulkDataOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mpjio/!svn/ver/49/dev/NIOEvaluation/NIOTests/ti/io/BulkDataOutputStream.java
+END
+BulkRandomAccessFile.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/mpjio/!svn/ver/49/dev/NIOEvaluation/NIOTests/ti/io/BulkRandomAccessFile.class
+END
+BulkDataInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mpjio/!svn/ver/49/dev/NIOEvaluation/NIOTests/ti/io/BulkDataInput.java
+END
+BulkDataInputStream.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mpjio/!svn/ver/49/dev/NIOEvaluation/NIOTests/ti/io/BulkDataInputStream.class
+END
+BulkDataOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mpjio/!svn/ver/49/dev/NIOEvaluation/NIOTests/ti/io/BulkDataOutput.java
+END
+BulkDataOutputStream.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/mpjio/!svn/ver/49/dev/NIOEvaluation/NIOTests/ti/io/BulkDataOutputStream.class
+END
+BulkDataInput.class
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mpjio/!svn/ver/49/dev/NIOEvaluation/NIOTests/ti/io/BulkDataInput.class
+END
+BulkDataOutput.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mpjio/!svn/ver/49/dev/NIOEvaluation/NIOTests/ti/io/BulkDataOutput.class
+END

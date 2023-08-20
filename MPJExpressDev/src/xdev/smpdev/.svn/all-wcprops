@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/smpdev
+END
+SMPDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/smpdev/SMPDevice.java
+END
+SMPDeviceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/smpdev/SMPDeviceImpl.java
+END
+SMPSendRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/smpdev/SMPSendRequest.java
+END
+init_smp.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/smpdev/init_smp.java
+END
+ConfigReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/smpdev/ConfigReader.java
+END
+SMPRecvRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/smpdev/SMPRecvRequest.java
+END
+SMPRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/smpdev/SMPRequest.java
+END
+SMPDevProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/smpdev/SMPDevProcess.java
+END

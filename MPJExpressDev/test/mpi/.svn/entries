@@ -1,0 +1,138 @@
+10
+
+dir
+47
+https://163.180.145.236/svn/mpjio/dev/MPJExpressDev/test/mpi
+https://163.180.145.236/svn/mpjio
+
+
+
+2012-04-13T04:12:43.811311Z
+11
+ammar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f065c41e-32ab-4eec-8b09-09cad3c7149f
+
+dtyp
+dir
+
+topo
+dir
+
+dtyp_ObjSer
+dir
+
+mpi
+dir
+
+env
+dir
+
+threads
+dir
+
+comm
+dir
+
+bcast_bench
+file
+
+
+
+
+2012-05-08T08:22:19.000000Z
+f458f4f1e53e843bae86e7b00a46b7a2
+2012-04-13T04:12:43.811311Z
+11
+ammar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+51
+
+group
+dir
+
+perf
+dir
+
+signals
+dir
+
+ccl
+dir
+
+ccl_ObjSer
+dir
+
+pt2pt
+dir
+
+pt2pt_ObjSer
+dir
+
+hostfile
+file
+
+
+
+
+2012-05-08T08:22:19.000000Z
+2c40863f0d40ba199ea0963fc04e4595
+2012-04-13T04:12:43.811311Z
+11
+ammar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+77
+

@@ -1,0 +1,30 @@
+#  $Archive:: /Ti/jni/Makefile                                           $
+#     $Date:: 7/02/00 12:25p                                             $
+# $Revision:: 22                                                         $
+# Description: Platform Makefile for SPARC.Solaris
+# Copyright 2000, Dan Bonachea - see license.txt for usage information
+
+#---------------------------------------------------------------------------
+# SPARC.Solaris settings
+
+# switches to be added to the C compiler line for optimize and debug configs
+PLATFORM_OPT_DEFS = -xO5
+PLATFORM_DEBUG_DEFS = -g
+
+# this is the subdirectory name in JAVA_HOME/include/ that contains platform-specific files
+JDKPLATFORMINCLUDESUBDIR = solaris
+
+# Compiler
+CC=cc 
+LIBOPTS=-G
+
+# things to place before and after calls to the java binaries
+JAVA_PREFIX   =
+JAVA_SUFFIX   = 
+JAVAC_PREFIX  = 
+JAVAC_SUFFIX  = 
+JAVAH_PREFIX  = 
+JAVAH_SUFFIX  = 
+
+#---------------------------------------------------------------------------
+

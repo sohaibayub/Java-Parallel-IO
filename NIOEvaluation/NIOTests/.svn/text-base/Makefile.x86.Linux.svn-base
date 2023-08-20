@@ -1,0 +1,33 @@
+#  $Archive:: /Ti/jni/Makefile                                           $
+#     $Date:: 7/02/00 12:25p                                             $
+# $Revision:: 22                                                         $
+# Description: Platform Makefile for x86.Linux
+# Copyright 2000, Dan Bonachea - see license.txt for usage information
+
+#---------------------------------------------------------------------------
+# x86.Linux settings
+
+# x86 byteswapping support: define next line if you have asm/byteorder.h 
+BYTESWAPDEFS= -DHAVE_ASM_BYTEORDER_H
+
+# switches to be added to the C compiler line for optimize and debug configs
+PLATFORM_OPT_DEFS = -O5 ${BYTESWAPDEFS} 
+PLATFORM_DEBUG_DEFS = -g ${BYTESWAPDEFS} 
+
+# Compiler
+CC=gcc
+LIBOPTS=-shared -fPIC
+
+# this is the subdirectory name in JAVA_HOME/include/ that contains platform-specific files
+# it seems that some versions of Java 1.1 on linux need this to be "genunix"
+JDKPLATFORMINCLUDESUBDIR = linux
+
+# things to place before and after calls to the java binaries
+JAVA_PREFIX   =
+JAVA_SUFFIX   = 
+JAVAC_PREFIX  = 
+JAVAC_SUFFIX  = 
+JAVAH_PREFIX  = 
+JAVAH_SUFFIX  = 
+
+#---------------------------------------------------------------------------

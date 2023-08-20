@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer
+END
+JGFRayTracerBench.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer/JGFRayTracerBench.java
+END
+Interval.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer/Interval.java
+END
+Sphere.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer/Sphere.java
+END
+Isect.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer/Isect.java
+END
+Light.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer/Light.java
+END
+Primitive.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer/Primitive.java
+END
+Surface.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer/Surface.java
+END
+View.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer/View.java
+END
+Ray.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer/Ray.java
+END
+RayTracer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer/RayTracer.java
+END
+Scene.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer/Scene.java
+END
+Vec.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section3/raytracer/Vec.java
+END

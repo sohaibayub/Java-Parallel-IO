@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/comm
+END
+commdup.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/comm/commdup.java
+END
+compare.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/comm/compare.java
+END
+comm_test.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/comm/comm_test.java
+END
+CommTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/comm/CommTest.java
+END
+split.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/comm/split.java
+END
+intercomm_test.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/comm/intercomm_test.java
+END
+intercomm.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/comm/intercomm.java
+END
+split2.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/comm/split2.java
+END

@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf
+END
+BufferFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/BufferFactory.java
+END
+SectionSizeMismatchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/SectionSizeMismatchException.java
+END
+BufferConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/BufferConstants.java
+END
+Buffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/Buffer.java
+END
+Buddy1BufferFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/Buddy1BufferFactory.java
+END
+Buddy2BufferFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/Buddy2BufferFactory.java
+END
+BufferOverflowException.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/BufferOverflowException.java
+END
+WrongStateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/WrongStateException.java
+END
+clean.pl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/clean.pl
+END
+BufferUnderflowException.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/BufferUnderflowException.java
+END
+Buffer.java.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/Buffer.java.in
+END
+NIOBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/NIOBuffer.java
+END
+Type.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/Type.java
+END
+Buddy1Buffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/Buddy1Buffer.java
+END
+Buddy2Buffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/Buddy2Buffer.java
+END
+RawBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/RawBuffer.java
+END
+CustomMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/CustomMath.java
+END
+NIOBuffer.java.in
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/NIOBuffer.java.in
+END
+generate.pl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/generate.pl
+END
+Buddy1FreeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/Buddy1FreeList.java
+END
+TypeMismatchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/TypeMismatchException.java
+END
+Buddy2FreeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/Buddy2FreeList.java
+END
+BufferException.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/BufferException.java
+END
+RawBuffer.java.in
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/RawBuffer.java.in
+END
+Buddy1RegionFreeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/Buddy1RegionFreeList.java
+END
+IllegalArgumentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/IllegalArgumentException.java
+END
+Buddy2Region.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/Buddy2Region.java
+END
+CustomObjectInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/CustomObjectInputStream.java
+END
+DynamicBufferException.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjbuf/DynamicBufferException.java
+END

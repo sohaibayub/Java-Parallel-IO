@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/niodev
+END
+NIODevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/niodev/NIODevice.java
+END
+ConfigReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/niodev/ConfigReader.java
+END
+NIOSendRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/niodev/NIOSendRequest.java
+END
+NIORecvRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/niodev/NIORecvRequest.java
+END
+NIORequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/xdev/niodev/NIORequest.java
+END

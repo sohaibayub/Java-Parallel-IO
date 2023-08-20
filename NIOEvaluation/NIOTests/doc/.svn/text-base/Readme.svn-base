@@ -1,0 +1,91 @@
+Bulk Synchronous I/O Extensions to Java 
+revision 1.2
+Dan Bonachea <bonachea@cs.berkeley.edu>
+
+Overview:
+
+These files implement bulk synchronous I/O in Java using the JNI (Java Native-Method Interface), as suggested in:
+Bonachea, Dan. "Bulk File I/O Extensions to Java," Proceedings of the ACM Java Grande 2000 Conference, June 3-4, 2000. http://www.cs.berkeley.edu/~bonachea/ti/bonachea-bulkIO.pdf
+
+-------------------------------------------------------------------------------------------
+
+Installation:
+
+In order to install the extensions for usage, you need to do the following:
+1. Modify the settings at the top of Makefile to match your system parameters. 
+2. Run "gmake" to compile the native method libraries for your platform. The native method libraries created (*.so) will be binary compatible (upwards and downwards) with other versions of the JVM that support JNI, however for optimal results they should be compiled and used under Java 1.2 or newer.
+3. Place the native method libraries (*.so) in a directory that appears in the LD_LIBRARY_PATH environment variable
+4. Make sure the root directory for these extensions is in your classlib path (it needs to find ti/io/*.class)
+5. (optional) Test the extensions by compiling and running the bulkddtest or bulkraftest java programs that are included - I recommend running them on files that are at least a few hundred KB and giving the test type of "all" to run all the tests.
+6. Compile and run your Java program that uses bulk I/O!
+
+-------------------------------------------------------------------------------------------
+
+Usage notes:
+
+As described in the paper above, the extensions are subclasses of java.io.BulkDataInputStream, java.io.BulkDataOutputStream and java.io.BulkRandomAccessFile providing bulk I/O methods that have demonstrated _enormous_ speedups over the legacy java libraries on array I/O, giving performance comparable to C and Fortran. Speedups exceeding 2x for sequential and 40x for random access are typical. The bulkperf.java test program included allows you to compare the performance of the extensions to the legacy libraries - I recommend an input file size of at least 1 MB, and a chunk size as large as possible (e.g. the entire file) to see the maximum speedup.
+
+The extensions are conceptually very simple and add two new methods: readArray() and writeArray() that take a single-dimensional array of primitives (e.g. int[], double[], etc) and perform bulk synchronous I/O with them. Overloads of these methods also allow selecting a subset of the array to be worked on (offset & length). Here's a simple example:
+
+		import ti.io.*;   // bulk I/O classes reside in this package
+		import java.io.*;
+
+		...
+
+		// construct a BulkRandomAccessFile for input + output
+		BulkRandomAccessFile brafout = new BulkRandomAccessFile("myoutputfile", "rw");
+
+		// construct a buffered BulkDataInputStream
+		BulkDataInputStream bdisin = new BulkDataInputStream(
+																	 new BufferedInputStream(
+																		 new FileInputStream("myinputfile")));
+
+		int numelems = bdisin.readInt();          // read some header info, using inherited methods
+		double biasfactor = bdisin.readDouble();
+
+		double [] buffer = new double[numelems]; // allocate a buffer to hold input 
+
+		bdisin.readArray(buffer); // read a large array of doubles
+
+		... // do some work on the array...
+
+		brafout.seek(100);       // seek to some destination in the output file
+
+		brafout.writeInt(numelems);          // output some header info, using inherited methods
+		brafout.writeDouble(biasfactor);
+
+		brafout.writeArray(buffer); // write the large buffer of doubles
+
+		bdisin.close();
+		brafout.close();
+
+More detailed examples can be found in bulkddtest.java, bulkraftest.java, bulkperf.java and at http://www.cs.berkeley.edu/~bonachea/ti/bulkio.html
+
+-------------------------------------------------------------------------------------------
+
+Implementation notes about the native methods:
+
+The basic implementation strategy is to "typecast" the array of primitives into an array of bytes, then pass this into the byte array I/O methods of the superclass. The files which implement this (bulkioread.c and bulkiowrite.c) look kind of ugly because they've been tuned to minimize the number of extra in-memory copies to the smallest possible given the capabilities of your JVM. The methods also need to perform byte-swapping on little-endian platforms, because Java specificies that the on-disk representation for binary values is big-endian on all platforms.
+
+In regards to minimizing copies:
+
+It turns out that in the very best case _one_ copy is required for each call, because the JNI doesn't support directly casting an array of one type into an array of another type (i.e. the array descriptor implementation isn't exposed, so you can't do the direct manipulations that would be required to perform a constant-time cast). So my readArray/writeArray native methods allocate a byte array of the right size, grab the most direct pointers possible to their data and do a memcpy() (or a copy-and-byteswap for little-endian platforms).
+
+The JNI interface 1.1 provides access to arrays using the Get<type>ArrayElements/Release<type>ArrayElements, which unfortunately usually result in extra copies when the JVM is using a copying gc.
+
+Luckily, the new JNI interface 1.2 (that comes with Java 2) includes some new functions (Get/ReleasePrimitiveArrayCritical) that have a much higher chance of giving you a direct pointer to the data (although the implementors still have the option to give you a copy). They accomplished this by placing significant restrictions on what you can do between a get/release pair (it's a critical region) and you have to be very careful to prevent deadlocking the JVM. I've written my code to work on both versions of the JNI, and it leverages these new functions when available, and correctly handles the cases when it gets a copy or direct pointer with whichever set of functions it selects.
+
+If the JVM insists on giving us copies even when we call the "critical" functions (which will probably only happen if they implement their primitive arrays non-contiguously), then we get a few more extra copies (for a max of 3, including the necessary one). This case is unlikely, but conceivable for a JVM specialized to a NUMA architecture that allows striping an array across nodes. My last open issue on this code is making sure that if this (hopefully rare) case arises when the user has called one of the array subset I/O operations, then those 2 extra copies _only_ copy the selected array subset, rather than the entire array (which could seriously degrade performance or consume all available memory for massive, striped arrays). I haven't decided the best way to fix this yet, (because you don't find out the JNI performed a copy until it's too late) but I think it's OK to worry about this later.
+
+For more info about JNI, see:
+Sheng Liang, "The Java Native Interface: Programmer's Guide and Specification", Sun Microsystems, 1999.
+
+-------------------------------------------------------------------------------------------
+
+Miscellaneous implementation optimizations used:
+
+Direct pass thru - treats readArray(byte[]) and writeArray(byte[]) as special cases where no copying is ever necessary, and passes the user's array directly to the underlying byte-array read and write methods. The bulkio methods on byte arrays can be made to behave identically to the non-byte array bulkio methods by defining NO_DIRECTPASSTHRU (although it's expected that this optimization should never cause problems).
+
+Random Access File Direct (RAFDirect) - This optimization attempts to reduce the number of copies to zero (in most cases) by passing the user's array data directly to the OS, i.e. making the read() and write() system calls within the bulkio implementation, rather than calling the superclass methods that accomplish this. This optimization makes some assumptions about the details of the JVM's implementation of the RandomAccessFile class, which are probably correct but are not fully specified, so some deviations are conceivable. This optimization can be disabled by defining NO_RAFDIRECT - the only case where this might help is if the BulkDataStream methods work fine, but the BulkRandomAccessFile methods are failing.
+
+

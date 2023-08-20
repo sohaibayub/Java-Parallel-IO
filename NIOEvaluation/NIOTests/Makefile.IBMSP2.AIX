@@ -1,0 +1,34 @@
+#  $Archive:: /Ti/jni/Makefile                                           $
+#     $Date:: 7/02/00 12:25p                                             $
+# $Revision:: 22                                                         $
+# Description: Platform Makefile for IBMSP2.AIX
+# Copyright 2000, Dan Bonachea - see license.txt for usage information
+
+#---------------------------------------------------------------------------
+# IBM AIX SP-2 settings
+
+# switches to be added to the C compiler line for optimize and debug configs
+# we add -c here because AIX requires separate compilation and linkage for shared libs
+# disable RAFDIRECT on this platform because it seems to cause problems
+PLATFORM_OPT_DEFS = -O2 -DMISSING_INTTYPES_H -c -DNO_RAFDIRECT
+PLATFORM_DEBUG_DEFS = -g -DMISSING_INTTYPES_H -c -DNO_RAFDIRECT
+
+# this is the subdirectory name in JAVA_HOME/include/ that contains platform-specific files
+JDKPLATFORMINCLUDESUBDIR = aix
+
+# Compiler
+CC=xlc_r 
+LIBOPTS=-L$(JAVA_HOME)/lib/aix/native_threads -lc_r -blibpath:usr/lib/threads:/usr/lib:/lib -bnoentry -bM:SRE -bexpall 
+
+# things to place before and after calls to the java binaries
+JAVA_PREFIX   =
+JAVA_SUFFIX   = 
+JAVAC_PREFIX  = 
+JAVAC_SUFFIX  = 
+JAVAH_PREFIX  = 
+JAVAH_SUFFIX  = 
+
+# AIX requires separate linkage
+EXTRALDCMD=@echo "***You may ignore the above warning about -o being ignored***";echo "ld $(LIBOPTS) *.o $(LIBS) -o $@";ld $(LIBOPTS) *.o $(LIBS) -o $@ ; rm -f *.o
+
+#---------------------------------------------------------------------------

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section1
+END
+JGFAll.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section1/JGFAll.java
+END
+JGFGatherBench.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section1/JGFGatherBench.java
+END
+JGFBcastBench.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section1/JGFBcastBench.java
+END
+obj_double.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section1/obj_double.java
+END
+JGFPingPongBench.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section1/JGFPingPongBench.java
+END
+JGFAlltoallBench.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section1/JGFAlltoallBench.java
+END
+JGFScatterBench.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section1/JGFScatterBench.java
+END
+JGFBarrierBench.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section1/JGFBarrierBench.java
+END
+JGFReduceBench.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/jgf_mpj_benchmarks/section1/JGFReduceBench.java
+END

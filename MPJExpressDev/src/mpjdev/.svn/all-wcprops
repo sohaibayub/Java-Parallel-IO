@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjdev
+END
+Status.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjdev/Status.java
+END
+MPJDevException.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjdev/MPJDevException.java
+END
+MPJDev.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjdev/MPJDev.java
+END
+MPJException.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjdev/MPJException.java
+END
+CompletionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjdev/CompletionHandler.java
+END
+Request.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjdev/Request.java
+END
+Comm.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjdev/Comm.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/src/mpjdev/Group.java
+END

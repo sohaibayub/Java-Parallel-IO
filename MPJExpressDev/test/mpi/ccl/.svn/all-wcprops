@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl
+END
+gatherv.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/gatherv.java
+END
+allreduce.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/allreduce.java
+END
+allgather.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/allgather.java
+END
+alltoall.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/alltoall.java
+END
+scatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/scatter.java
+END
+reduce.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/reduce.java
+END
+allreduce_maxminloc.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/allreduce_maxminloc.java
+END
+gather.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/gather.java
+END
+scan.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/scan.java
+END
+barrier.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/barrier.java
+END
+reduce2.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/reduce2.java
+END
+allgatherv.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/allgatherv.java
+END
+alltoallv.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/alltoallv.java
+END
+scatterv.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/scatterv.java
+END
+reduce_scatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/reduce_scatter.java
+END
+bcast.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/mpjio/!svn/ver/11/dev/MPJExpressDev/test/mpi/ccl/bcast.java
+END
